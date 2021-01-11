@@ -1,0 +1,22 @@
+hexo init blog  创建名为blog博客文件夹
+
+npm install hexo-deployer-git --save
+
+
+
+【
+theme: landscape
+
+deploy:
+
+  type: git
+
+  repository: git remote add origin git@github.com:shadowhyc/youkeda.git
+
+  branch: master
+】
+配置文件
+发送
+hexo clean
+hexo generate
+hexo deploy
